@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    max-width: 80%;
+    max-height: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+/*Css do Formulario*/
+form#formulario{
+    background-color: rgba(0, 0, 0, 0.562);
+    color:#13151d;
+    text-align: center;
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.541);
+
+}
+/*Css do botão do Formulário*/
+form button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(28, 189, 253);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+form button:hover{
+    color: white;
+    background-color: rgb(12, 69, 92);
+    transition: 0.5s;
+}
+div#nome{
+    margin: 15px;
+}
+div#telefone{
+    margin: 15px;
+}
+div#cpf{
+    margin: 15px;
+}
+/*Css dos label do Formulário*/
+form#formulario h1{
+    color: white;
+    background-color: #1f1f22;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div#nome label{
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+div#telefone label{
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+div#cpf label{
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+/*Css dos input do Formulário*/
+div#nome input{
+    padding: 8px 15px 5px 20px;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+    border: none;   
+}
+div#telefone input{
+    padding: 8px 15px 5px 20px;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+    border: none;  
+}
+div#cpf input{
+    padding: 8px 15px 5px 20px;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+    border: none;
+}
+div#login_cadastro{
+    color: white;
+    margin: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+div#login_cadastro a{
+    color: #13151d;
+    background-color: aliceblue;
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+div#login_cadastro a:hover{
+    background-color: #13151d;
+    color: aliceblue;
+    transition: 0.5s;
+}

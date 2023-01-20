@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url('../images/rifa_pers_03.png');
+}
+main div#container{
+    width: 30%;
+    background-color: rgb(21, 21, 31);
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+div#nome_da_rifa{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin:10px;
+    padding-top: 30px;
+}
+div#imag_rifa{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin:10px;
+}
+div p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin:10px;
+}
+a#btn_participar{
+    background-color: rgb(206, 198, 92);
+    color: black;
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+a#btn_participar:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 15px;
+}

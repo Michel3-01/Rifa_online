@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-image: url('../images/rifa_pers_03.png');
+}
+header h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    color: white;
+    background-color: #13151d;
+    padding: 25px;
+}
+/*Css dos Botões*/
+a{
+    text-decoration: none;
+    color: aquamarine;
+    background-color: rgb(25, 41, 77);
+    padding: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 133, 161);
+
+}
+
+main{
+    position: relative;
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    display:block;
+    background-color: rgb(87, 97, 95);
+}
+/*Números dentro no main*/
+main div.num{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: rgb(5, 5, 15);
+    color: white;
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+ 
+}
+main div.num:hover{
+    background-color: rgb(32, 57, 110);
+    transition: 0.5s;
+}
+/*Css Div Container*/
+main div#container{
+    background-color: rgb(211, 110, 84);
+    border: 2px solid blue;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/*Css Div Página reserva*/
+main div#pagina_reserva{
+    background-color: rgb(205, 207, 209);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    margin-left:200px;
+    display: none;
+}
+main div#pagina_reserva h1{
+    background-color: rgb(17, 18, 19);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+main div#pagina_reserva p{
+    background-color: rgba(52, 114, 172, 0.63);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+main div#pagina_reserva h2{
+    color: rgb(0, 0, 0);
+}
+main button#btn_reservar{
+    background-color: rgb(224, 224, 100);
+    color: #13151d; 
+    padding: 10px;
+    border: none; 
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+main button#btn_reservar:hover{
+    background-color: rgb(99, 99, 44);
+    color: #ffffff; 
+
+}
+main div#pagina_reserva.aparecer{
+    display: block;
+}
+/*Css div lista_compras*/
+div#lista_compras{
+    border: 1px dashed red;
+}
+div#lista_compras div#numeros_reservados{
+    display: inline-block;
+    background-color: #13151d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 3px;
+    font-weight: bold;
+    margin: 10px 2px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #13151d;
+    color: white;
+}

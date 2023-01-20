@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+#formulario{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.459);
+    text-align: center;
+    width: 60%;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formulario h1{
+    background-color: #13151d;
+    color: white;
+}
+#btnImg{
+    padding: 15px;
+    background-color: rgb(35, 56, 87);
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+#btnImg:hover{
+    border:2px solid  rgb(35, 56, 87);
+    background-color:  rgb(204, 239, 250);
+    color: white;
+
+}
+/*Botões*/
+#btn_add_text{
+    background-color: rgb(19, 153, 119);
+    color: white;
+    padding: 10px 20px;
+    margin:15px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn_add_text:hover{
+    background-color: rgb(9, 78, 61);
+    color: white;
+    text-decoration: underline;
+}
+#btn_criar_rifa{
+    background-color: rgb(31, 185, 83);
+    color: white;
+    padding: 10px 20px;
+    margin:15px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn_criar_rifa:hover{
+    background-color: rgb(22, 128, 57);
+    color: white;
+    text-decoration: underline;
+}
+#btn_deletar_rifa{
+    background-color: rgb(218, 88, 55);
+    color: white;
+    padding: 10px 20px;
+    margin:15px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn_deletar_rifa:hover{
+    background-color: rgb(119, 48, 31);
+    color: white;
+    text-decoration: underline;
+}
