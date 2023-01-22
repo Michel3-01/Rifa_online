@@ -3,8 +3,12 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: rgba(8, 71, 90, 0.514);
+}
 main{
-    max-width: 80%;
+    max-width: 800px;
+    min-width: 320px;
     max-height: 100%;
     margin: auto;
     background-color: rgb(255, 255, 255);
@@ -106,6 +110,7 @@ div#login_cadastro a{
     background-color: aliceblue;
     display: block;
     width: 40%;
+    font-weight: bold;
     margin: auto;
     margin-top: 30px;
 }
@@ -113,4 +118,20 @@ div#login_cadastro a:hover{
     background-color: #13151d;
     color: aliceblue;
     transition: 0.5s;
+}
+@media  screen and (max-width:536px) {
+    form#formulario{
+        width: 90%;
+        height: 70%;
+    }
+    div#nome label,  div#telefone label, div#cpf label {
+        font-size: 1em;
+    }
+    div#nome input, div#telefone input, div#cpf input{
+        padding: 4px 7.5px 2.5px 10px;
+    }
+    div#login_cadastro a{
+        width: 20%;
+    }
+
 }

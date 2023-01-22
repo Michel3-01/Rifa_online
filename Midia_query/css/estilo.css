@@ -1,0 +1,29 @@
+h1{
+    color: red;
+}
+/*2 - Sintaxe*/
+@media screen and (max-width: 500px) {
+/*Max-Width = Telas Menores que Alguma Resolução*/
+        h1{
+            color: blue;
+        }   
+}
+/*3 - Outros Modos */
+/* Screen, Print, Speech, All*/
+@media print and (max-width:600px) {
+    h1{
+        color: green;
+    }
+}
+@media (max-width:700px) {
+    h2{
+        color: blueviolet;
+    }
+}
+/*5 - Mobile first */
+/*Min-width > Max-width*/
+@media (min-width:200px) {
+    h2{
+        color: teal;
+    }
+}

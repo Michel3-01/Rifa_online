@@ -16,6 +16,7 @@
 #formulario h1{
     background-color: #13151d;
     color: white;
+    margin: 20px 0px;
 }
 #btnImg{
     padding: 15px;
@@ -78,4 +79,9 @@
     background-color: rgb(119, 48, 31);
     color: white;
     text-decoration: underline;
+}
+@media screen and (max-width:500px) {
+    #formulario{
+        width: 90%;
+    } 
 }
